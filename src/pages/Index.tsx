@@ -216,10 +216,10 @@ const Index = () => {
                     <Phone className="mr-2 h-4 w-4" /> 📱 +91 8017606078
                   </p>
                   <p className="text-gray-700 flex items-center">
-                    <Linkedin className="mr-2 h-4 w-4" /> LinkedIn: Krishna Kumar Jha
+                    <Linkedin className="mr-2 h-4 w-4" /> LinkedIn: https://www.linkedin.com/in/krishnaaa-here/
                   </p>
                   <p className="text-gray-700 flex items-center">
-                    <Github className="mr-2 h-4 w-4" /> GitHub: KrishnaKumarHM
+                    <Github className="mr-2 h-4 w-4" /> GitHub: https://github.com/1am-krishna-2407
                   </p>
                   <p className="text-gray-700 flex items-center">
                     📍 Hooghly, West Bengal 712233
