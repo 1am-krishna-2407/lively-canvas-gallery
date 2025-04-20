@@ -104,26 +104,38 @@ const Index = () => {
                   </TableHeader>
                   <TableBody>
                     <TableRow>
-                      <TableCell className="font-medium">Infosys</TableCell>
-                      <TableCell>Software Engineer Intern</TableCell>
-                      <TableCell>May 2024 - Present</TableCell>
+                      <TableCell className="font-medium">Codsoft</TableCell>
+                      <TableCell>Machine Learning Intern</TableCell>
+                      <TableCell>June 2024 - July 2024</TableCell>
                       <TableCell className="max-w-md">
                         <ul className="list-disc list-inside space-y-1">
-                          <li>Working on enterprise-level software development projects.</li>
-                          <li>Collaborating with team members using agile methodologies.</li>
-                          <li>Developing and maintaining software applications.</li>
+                          <li>Successfully completed an individual internship, developing four medium-level Python projects within a one-month deadline.</li>
+                          <li>Adhered to industry standards and earned an industry-recognized certificate.</li>
+                          <li>Tech stack: Python, Django, Flask</li>
                         </ul>
                       </TableCell>
                     </TableRow>
                     <TableRow>
-                      <TableCell className="font-medium">TCS</TableCell>
-                      <TableCell>Summer Intern</TableCell>
-                      <TableCell>June 2023 - Aug 2023</TableCell>
+                      <TableCell className="font-medium">Board Infinity</TableCell>
+                      <TableCell>Summer Intern - DSA</TableCell>
+                      <TableCell>June 2024 - July 2024</TableCell>
                       <TableCell className="max-w-md">
                         <ul className="list-disc list-inside space-y-1">
-                          <li>Assisted in developing web applications using React.</li>
-                          <li>Participated in code reviews and testing procedures.</li>
-                          <li>Gained hands-on experience with industry tools and practices.</li>
+                          <li>Completed structured course on algorithm analysis, decision making techniques, and optimization strategies.</li>
+                          <li>Covered: Time/space complexity, sorting, searching, recursion, dynamic programming, graph algorithms, and data structures.</li>
+                          <li>Tech stack: C++, Data Structures and Algorithms</li>
+                        </ul>
+                      </TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">Incurithm</TableCell>
+                      <TableCell>Junior Developer</TableCell>
+                      <TableCell>November 2022 - December 2022</TableCell>
+                      <TableCell className="max-w-md">
+                        <ul className="list-disc list-inside space-y-1">
+                          <li>Designed and analyzed a responsive landing page for seamless cross-device experience.</li>
+                          <li>Created company logo and contributed to backend development.</li>
+                          <li>Tech stack: HTML, CSS, JavaScript, Bootstrap, React, Node.js, Express.js, MongoDB</li>
                         </ul>
                       </TableCell>
                     </TableRow>
