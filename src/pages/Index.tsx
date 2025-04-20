@@ -12,6 +12,7 @@ import {
   TableBody,
   TableCell,
 } from "@/components/ui/table"
+import { Mail, Phone, Linkedin, Github } from "lucide-react";
 
 const Index = () => {
   const [coverImage, setCoverImage] = useState('/placeholder.svg');
@@ -208,9 +209,21 @@ const Index = () => {
               <CardContent className="pt-6">
                 <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
                 <div className="space-y-2">
-                  <p className="text-gray-700">📧 krishnakumar@lpu.in</p>
-                  <p className="text-gray-700">📱 +91 8017606078</p>
-                  <p className="text-gray-700">📍 Hooghly, West Bengal 712233</p>
+                  <p className="text-gray-700 flex items-center">
+                    <Mail className="mr-2 h-4 w-4" /> 📧 krishnakumar@lpu.in
+                  </p>
+                  <p className="text-gray-700 flex items-center">
+                    <Phone className="mr-2 h-4 w-4" /> 📱 +91 8017606078
+                  </p>
+                  <p className="text-gray-700 flex items-center">
+                    <Linkedin className="mr-2 h-4 w-4" /> LinkedIn: Krishna Kumar Jha
+                  </p>
+                  <p className="text-gray-700 flex items-center">
+                    <Github className="mr-2 h-4 w-4" /> GitHub: KrishnaKumarHM
+                  </p>
+                  <p className="text-gray-700 flex items-center">
+                    📍 Hooghly, West Bengal 712233
+                  </p>
                 </div>
               </CardContent>
             </Card>
