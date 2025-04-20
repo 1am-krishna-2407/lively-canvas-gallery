@@ -176,15 +176,25 @@ const Index = () => {
             <Card>
               <CardContent className="pt-6">
                 <h3 className="text-lg font-semibold">Career Recommendation System</h3>
-                <p className="text-gray-600 mb-2">Machine Learning | July 2024</p>
-                <p className="text-gray-700">Developed a career recommendation system using machine learning algorithms.</p>
+                <p className="text-gray-600 mb-4">Machine Learning | July 2024</p>
+                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                  <li>Developed an intelligent career recommendation system using Python and machine learning algorithms to analyze user profiles and suggest optimal career paths.</li>
+                  <li>Implemented various ML models including Random Forest and Decision Trees to process user data and provide personalized career suggestions.</li>
+                  <li>Created an intuitive web interface for users to input their skills, interests, and academic background.</li>
+                  <li>Tech stack: Python, scikit-learn, TensorFlow, Flask, HTML/CSS</li>
+                </ul>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="pt-6">
                 <h3 className="text-lg font-semibold">Shop Ecommerce Website</h3>
-                <p className="text-gray-600 mb-2">November 2023</p>
-                <p className="text-gray-700">Full-stack concert ticket booking platform with React and Bootstrap.</p>
+                <p className="text-gray-600 mb-4">Full Stack Development | November 2023</p>
+                <ul className="list-disc list-inside space-y-2 text-gray-700">
+                  <li>Built a responsive e-commerce platform with user authentication, product catalog, and shopping cart functionality.</li>
+                  <li>Implemented secure payment gateway integration and order management system.</li>
+                  <li>Designed and developed an admin dashboard for inventory and order management.</li>
+                  <li>Tech stack: React, Bootstrap, Node.js, Express.js, MongoDB</li>
+                </ul>
               </CardContent>
             </Card>
           </div>
