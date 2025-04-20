@@ -1,10 +1,17 @@
-
 import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import FeedbackForm from '@/components/FeedbackForm';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Edit } from "lucide-react";
+import {
+  Table,
+  TableHeader,
+  TableRow,
+  TableHead,
+  TableBody,
+  TableCell,
+} from "@/components/ui/table"
 
 const Index = () => {
   const [coverImage, setCoverImage] = useState('/placeholder.svg');
@@ -78,6 +85,53 @@ const Index = () => {
               </CardContent>
             </Card>
           </div>
+        </section>
+
+        {/* Experience Section */}
+        <section id="experience" className="scroll-mt-20">
+          <h2 className="section-title">Experience</h2>
+          <Card>
+            <CardContent className="pt-6">
+              <div className="overflow-x-auto">
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>Company</TableHead>
+                      <TableHead>Position</TableHead>
+                      <TableHead>Duration</TableHead>
+                      <TableHead>Description</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    <TableRow>
+                      <TableCell className="font-medium">Infosys</TableCell>
+                      <TableCell>Software Engineer Intern</TableCell>
+                      <TableCell>May 2024 - Present</TableCell>
+                      <TableCell className="max-w-md">
+                        <ul className="list-disc list-inside space-y-1">
+                          <li>Working on enterprise-level software development projects.</li>
+                          <li>Collaborating with team members using agile methodologies.</li>
+                          <li>Developing and maintaining software applications.</li>
+                        </ul>
+                      </TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">TCS</TableCell>
+                      <TableCell>Summer Intern</TableCell>
+                      <TableCell>June 2023 - Aug 2023</TableCell>
+                      <TableCell className="max-w-md">
+                        <ul className="list-disc list-inside space-y-1">
+                          <li>Assisted in developing web applications using React.</li>
+                          <li>Participated in code reviews and testing procedures.</li>
+                          <li>Gained hands-on experience with industry tools and practices.</li>
+                        </ul>
+                      </TableCell>
+                    </TableRow>
+                  </TableBody>
+                </Table>
+              </div>
+            </CardContent>
+          </Card>
         </section>
 
         {/* Skills Section */}
